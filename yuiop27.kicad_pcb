@@ -260,7 +260,7 @@
     (descr "Mounting Hole 4.3mm, no annular, M4")
     (tags "mounting hole 4.3mm no annular m4")
     (attr virtual)
-    (fp_text reference REF** (at 0 -5.3) (layer F.SilkS) hide
+    (fp_text reference REF01 (at 0 -5.3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_4.3mm_M4 (at 0 5.3) (layer F.Fab)
@@ -279,7 +279,7 @@
     (descr "Mounting Hole 4.3mm, no annular, M4")
     (tags "mounting hole 4.3mm no annular m4")
     (attr virtual)
-    (fp_text reference REF** (at 0 -5.3) (layer F.SilkS) hide
+    (fp_text reference REF02 (at 0 -5.3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_4.3mm_M4 (at 0 5.3) (layer F.Fab)
@@ -298,7 +298,7 @@
     (descr "Mounting Hole 4.3mm, no annular, M4")
     (tags "mounting hole 4.3mm no annular m4")
     (attr virtual)
-    (fp_text reference REF** (at 0 -5.3) (layer F.SilkS) hide
+    (fp_text reference REF03 (at 0 -5.3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_4.3mm_M4 (at 0 5.3) (layer F.Fab)
@@ -317,7 +317,7 @@
     (descr "Mounting Hole 4.3mm, no annular, M4")
     (tags "mounting hole 4.3mm no annular m4")
     (attr virtual)
-    (fp_text reference REF** (at 0 -5.3) (layer F.SilkS) hide
+    (fp_text reference REF04 (at 0 -5.3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_4.3mm_M4 (at 0 5.3) (layer F.Fab)
@@ -336,7 +336,7 @@
     (descr "Mounting Hole 4.3mm, no annular, M4")
     (tags "mounting hole 4.3mm no annular m4")
     (attr virtual)
-    (fp_text reference REF** (at 0 -5.3) (layer F.SilkS) hide
+    (fp_text reference REF05 (at 0 -5.3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_4.3mm_M4 (at 0 5.3) (layer F.Fab)
