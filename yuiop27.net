@@ -644,7 +644,7 @@
     (library (logical Device)
       (uri D:\App\KiCad\share\kicad\library/Device.lib))
     (library (logical kbd)
-      (uri D:\home\koron\kicad\yuiop/lib/kbd.lib)))
+      (uri D:\home\koron\kicad\yuiop/kbd/kicad-symbols/kbd.lib)))
   (nets
     (net (code 1) (name COL3)
       (node (ref U1) (pin 16))
