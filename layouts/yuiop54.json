@@ -36,13 +36,10 @@
   [
     {
       "x": 0.25,
-      "a": 7,
+      "a": 3,
       "w": 1.5
     },
-    "Tab",
-    {
-      "a": 3
-    },
+    "Tab\n\n\n\n1.5u",
     "Q\n\n\n\n\nIns",
     "W\n\n\n\n\nPgUp",
     {
@@ -77,17 +74,13 @@
       "a": 3,
       "w": 1.5
     },
-    "BS\n\n\n\n\nDelete"
+    "BS\n\n\n\n1.5u\nDelete"
   ],
   [
     {
-      "a": 7,
       "w": 1.75
     },
-    "Ctrl",
-    {
-      "a": 3
-    },
+    "Ctrl\n\n\n\n1.75u",
     "A\n\n\n\n\nHome",
     "S\n\n\n\n\nPgDn",
     "D\n\n\n\n\nEnd",
@@ -111,7 +104,6 @@
     },
     ":\n\n\n\n\n→\n;",
     {
-      "a": 5,
       "fa": [
         0,
         0,
@@ -123,18 +115,15 @@
       ],
       "w": 1.75
     },
-    "\"\n\n\n\n\n\n'"
+    "\"\n\n\n\n1.75u\n\n'"
   ],
   [
     {
       "x": 0.25,
-      "a": 7,
+      "a": 3,
       "w": 1.25
     },
-    "Shift",
-    {
-      "a": 3
-    },
+    "Shift\n\n\n\n1.25u",
     "Z\n\n\n\n\nPScrn",
     "X\n\n\n\n\nScrLk",
     "C\n\n\n\n\nPause",
@@ -148,13 +137,11 @@
     "B\n\n\n\n\n英数",
     {
       "x": 0.5,
-      "a": 7,
       "w": 1.25
     },
-    "Win",
+    "Win\n\n\n\n1.25u",
     {
-      "x": 0.5,
-      "a": 3
+      "x": 0.5
     },
     "N\n\n\n\n\nかな",
     {
@@ -176,22 +163,21 @@
     },
     "?\n\n\n\n\n全/半\n/",
     {
-      "a": 7,
+      "a": 3,
       "w": 1.25
     },
-    "Shift"
+    "Shift\n\n\n\n1.25u"
   ],
   [
     {
       "x": 3.5,
       "w": 1.5
     },
-    "Alt",
+    "Alt\n\n\n\n1.5u",
     {
-      "a": 3,
       "w": 1.25
     },
-    "ESC\n\n\n\n\nLT1",
+    "ESC\n\n\n\n1.25u\nLT1",
     {
       "a": 7,
       "w": 2.75
@@ -201,11 +187,10 @@
       "a": 3,
       "w": 1.25
     },
-    "Enter\n\n\n\n\nLT1",
+    "Enter\n\n\n\n1.25u\nLT1",
     {
-      "a": 7,
       "w": 1.5
     },
-    "Alt"
+    "Alt\n\n\n\n1.5u"
   ]
 ]
