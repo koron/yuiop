@@ -1,9 +1,9 @@
-(module Hole_5x2.5_7 (layer F.Cu) (tedit 5FFF3DBF)
-  (fp_text reference HOLE** (at 0 -4) (layer F.SilkS) hide
+(module Hole_5x2.5_7 (layer F.Cu) (tedit 60003A0C)
+  (fp_text reference HOLE** (at 0 -4.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Hole_5x2.5_7 (at 0 4) (layer F.Fab) hide
+  (fp_text value Hole_5x2.5_7 (at 0 4.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 thru_hole circle (at 0 0) (size 7 7) (drill oval 5 2.5) (layers *.Cu *.Mask))
+  (pad "" thru_hole circle (at 0 0) (size 7 7) (drill oval 5 2.5) (layers *.Cu *.Mask))
 )

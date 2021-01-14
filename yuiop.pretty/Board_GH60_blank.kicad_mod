@@ -1,0 +1,16 @@
+(module Board_GH60_blank (layer F.Cu) (tedit 600033CF)
+  (fp_text reference BOARD** (at 141 40) (layer Dwgs.User) hide
+    (effects (font (size 2 2) (thickness 0.3)) (justify right))
+  )
+  (fp_text value Board_GH60_blank (at 141 44) (layer Dwgs.User) hide
+    (effects (font (size 2 2) (thickness 0.3)) (justify right))
+  )
+  (fp_line (start -140.5 47.3) (end 140.5 47.3) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start 142.5 45.3) (end 142.5 -45.3) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start 140.5 -47.3) (end -140.5 -47.3) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start -142.5 -45.3) (end -142.5 45.3) (layer Edge.Cuts) (width 0.12))
+  (fp_arc (start -140.5 -45.3) (end -140.5 -47.3) (angle -90) (layer Edge.Cuts) (width 0.12))
+  (fp_arc (start 140.5 -45.3) (end 142.5 -45.3) (angle -90) (layer Edge.Cuts) (width 0.12))
+  (fp_arc (start 140.5 45.3) (end 140.5 47.3) (angle -90) (layer Edge.Cuts) (width 0.12))
+  (fp_arc (start -140.5 45.3) (end -142.5 45.3) (angle -90) (layer Edge.Cuts) (width 0.12))
+)
