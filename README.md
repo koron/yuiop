@@ -1,0 +1,35 @@
+# YUIOP Keyboard series
+
+YUIOP keyboards are experimental original keyboards designed by KoRoN.
+
+Keyboards in this project are:
+
+*   yuiop27/ - separate keyboard prototype.
+    27 keys for one hand. single left hand.
+*   yuiop54/ - signle board keyboard prototype.
+    combined right and left-hand boards of yuiop27.
+    PCB dimension is 285.00mm x 94.60mm (GH60 compatible form factor without
+    screw holes).
+*   yuiop54v2/ - researching version of yuiop54.
+    multi-sheets schematic.
+    fix layout for auto routing.
+    introduce GND cupper fill.
+    *   rev.B - trial to make compatible with GH60 (include screw holes).
+        use popular keycaps size.
+        tring 128x64 dots OLED.
+    *   rev.C - key sizes revised version.
+        consider just layout.
+        use 1u footprint for keys of little fingers. 
+        compact form factor size, 267.00mm x 95.00mm (drop compatibility with
+        GH60).
+        change the origin to center of PCB.
+        use 2u for R5 center key.
+        use Edge.Cuts to represents screw holes.
+        OLED is 128x32 dots.
+    *   rev.D - narrowwer version of rev.C
+        consider just layout.
+        the dimension is 262.0mm x 95.00mm
+        reduce margins between `F` and `G` keys, and `H` and `J` keys.
+    *   rev.E - a variation of rev.C
+        the dimension is 267.00mm x 95.00mm (same with rev.C, not rev.D)
+        make keys on `F`'s row be able to use 1.25u keycap.
