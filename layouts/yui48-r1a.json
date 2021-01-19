@@ -1,0 +1,140 @@
+[
+  {
+    "name": "YUI48-r1a",
+    "author": "MURAOKA Taro (a.k.a. koron, kaoriya)",
+    "notes": "Experimental 50%, 48 keys keyboard\n\n## revision 1a changes\n\n* colored home positions",
+    "switchMount": "cherry",
+    "pcb": false,
+    "plate": false
+  },
+  [
+    {
+      "a": 7
+    },
+    "Q",
+    "W",
+    "E",
+    {
+      "x": 0.125
+    },
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    {
+      "x": 0.125
+    },
+    "I",
+    "O",
+    "P"
+  ],
+  [
+    {
+      "x": 0.26,
+      "c": "#ffbbbb"
+    },
+    "A",
+    "S",
+    "D",
+    {
+      "x": 0.2400000000000002,
+      "c": "#cccccc"
+    },
+    "R",
+    "T",
+    {
+      "x": 0.25
+    },
+    "Y",
+    "U",
+    {
+      "x": 0.25,
+      "c": "#ffbbbb"
+    },
+    "K",
+    {
+      "x": 0.009999999999999787
+    },
+    "L",
+    ":"
+  ],
+  [
+    {
+      "x": 0.25,
+      "c": "#cccccc"
+    },
+    "Z",
+    "X",
+    "C",
+    {
+      "x": 0.25,
+      "c": "#ffbbbb"
+    },
+    "F",
+    {
+      "c": "#cccccc"
+    },
+    "G",
+    {
+      "x": 0.25
+    },
+    "H",
+    {
+      "c": "#ffbbbb"
+    },
+    "J",
+    {
+      "x": 0.25,
+      "c": "#cccccc"
+    },
+    "<",
+    ">",
+    "/"
+  ],
+  [
+    "Shift",
+    "Ctrl",
+    "Tab",
+    "V",
+    "B",
+    {
+      "w": 1.25
+    },
+    "Win",
+    "N",
+    "M",
+    "BS",
+    "-",
+    "Shift"
+  ],
+  [
+    {
+      "x": 2,
+      "w": 1.25
+    },
+    "",
+    {
+      "c": "#ffbbbb"
+    },
+    "",
+    {
+      "c": "#ffbbff",
+      "w": 1.25
+    },
+    "",
+    {
+      "w": 1.5
+    },
+    "",
+    {
+      "c": "#ffbbbb",
+      "w": 1.25
+    },
+    "",
+    {
+      "c": "#cccccc"
+    },
+    ""
+  ]
+]
