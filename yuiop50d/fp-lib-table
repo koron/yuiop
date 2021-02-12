@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name kbd)(type KiCad)(uri ${KIPRJMOD}/../kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
+  (lib (name yuiop)(type KiCad)(uri ${KIPRJMOD}/../yuiop.pretty)(options "")(descr ""))
+  (lib (name MCU_RaspberryPi_and_Boards)(type KiCad)(uri ${KIPRJMOD}/../RP_Silicon_KiCad/KiCadLibraries/MCU_RaspberryPi_and_Boards.pretty)(options "")(descr ""))
+)
