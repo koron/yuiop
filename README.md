@@ -48,3 +48,9 @@ Keyboards in this project are:
     Standard row staggered layout.
     Support Pro Micro and RapsberryPi Pico as MCU.
     PCB dimension is 182.00mm x 103.50mm
+
+*   yuiop63hhs/ - Split HHKB layout minimal keyboard.
+    No LED nor OLED, Just 63 (29+34) keys.
+    PCB dimension 319.00mm x 95.00mm
+    *   Left 152.50mm x 95.00mm
+    *   Right 162.00mm x 95.00mm
