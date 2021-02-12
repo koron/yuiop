@@ -43,7 +43,7 @@ Keyboards in this project are:
 *   yuiop60hh/ - HHKB clone trial
 *   yuiop60hh2/ - HHKB clone trial #2
 
-*   yuiop50d/ - Small footprint keyboard.
+*   yuiop50d/ - Small footprint, dense 50 keys keyboard.
     1u is 16mm, using small keycaps.
     Standard row staggered layout.
     Support Pro Micro and RapsberryPi Pico as MCU.
