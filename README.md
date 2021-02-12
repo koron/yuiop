@@ -6,10 +6,12 @@ Keyboards in this project are:
 
 *   yuiop27/ - separate keyboard prototype.
     27 keys for one hand. single left hand.
+
 *   yuiop54/ - signle board keyboard prototype.
     combined right and left-hand boards of yuiop27.
     PCB dimension is 285.00mm x 94.60mm (GH60 compatible form factor without
     screw holes).
+
 *   yuiop54v2/ - researching version of yuiop54.
     multi-sheets schematic.
     fix layout for auto routing.
@@ -33,3 +35,16 @@ Keyboards in this project are:
     *   rev.E - a variation of rev.C
         the dimension is 267.00mm x 95.00mm (same with rev.C, not rev.D)
         make keys on `F`'s row be able to use 1.25u keycap.
+
+*   yuiop47/ - Single board keyborard with 47 keys.
+    Shrink from yuiop54.
+    PCB dimension is 214.00mm x 94.00mm
+
+*   yuiop60hh/ - HHKB clone trial
+*   yuiop60hh2/ - HHKB clone trial #2
+
+*   yuiop50d/ - Small footprint keyboard.
+    1u is 16mm, using small keycaps.
+    Standard row staggered layout.
+    Support Pro Micro and RapsberryPi Pico as MCU.
+    PCB dimension is 182.00mm x 103.50mm
