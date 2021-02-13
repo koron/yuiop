@@ -54,3 +54,7 @@ Keyboards in this project are:
     PCB dimension 319.00mm x 95.00mm
     *   Left 152.50mm x 95.00mm
     *   Right 162.00mm x 95.00mm
+
+*   yuiop22rs/ - 22 keys + rotary switch macropad.
+    With OLED, without LED.
+    PCB dimension 95.25mm x 95.25mm
