@@ -58,3 +58,6 @@ Keyboards in this project are:
 *   yuiop22rs/ - 22 keys + rotary switch macropad.
     With OLED, without LED.
     PCB dimension 95.25mm x 95.25mm
+
+*   contorller/ - Keyboard controler using ATmega32U4 which replacing Pro
+    Micro.
