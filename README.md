@@ -61,3 +61,5 @@ Keyboards in this project are:
 
 *   contorller/ - Keyboard controler using ATmega32U4 which replacing Pro
     Micro.
+
+*   yuiopPM/ - Pro Micro compatible but minimal for only keyboard, PCB
