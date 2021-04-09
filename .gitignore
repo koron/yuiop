@@ -1,6 +1,7 @@
 tmp/
 
 *-bak
+*.bck
 
 fp-info-cache
 
