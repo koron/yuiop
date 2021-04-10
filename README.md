@@ -63,3 +63,5 @@ Keyboards in this project are:
     Micro.
 
 *   yuiopPM/ - Pro Micro compatible but minimal for only keyboard, PCB
+
+*   yuiop60hh3/ - HHKB layout, compatible with popular 60% cases.
