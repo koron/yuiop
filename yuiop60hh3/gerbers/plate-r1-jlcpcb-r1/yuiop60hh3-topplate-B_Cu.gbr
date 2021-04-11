@@ -1,0 +1,43 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(5.1.9)-1*%
+%TF.CreationDate,2021-04-11T15:20:34+09:00*%
+%TF.ProjectId,yuiop60hh3-topplate,7975696f-7036-4306-9868-332d746f7070,1*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (5.1.9)-1) date 2021-04-11 15:20:34*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentPad*%
+%ADD10C,4.000000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,HOLE7,*%
+%TO.N,*%
+X108125000Y-117115000D03*
+%TD*%
+%TO.P,HOLE8,*%
+%TO.N,*%
+X110375000Y-174115000D03*
+%TD*%
+%TO.P,HOLE9,*%
+%TO.N,*%
+X317625000Y-117115000D03*
+%TD*%
+%TO.P,HOLE10,*%
+%TO.N,*%
+X333025000Y-174065000D03*
+%TD*%
+%TO.P,HOLE11,*%
+%TO.N,*%
+X203375000Y-117115000D03*
+%TD*%
+%TO.P,HOLE12,*%
+%TO.N,*%
+X208125000Y-174115000D03*
+%TD*%
+M02*
