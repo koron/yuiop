@@ -72,12 +72,19 @@ YUIOP/PMはPro Micro互換ボードの互換ボードです。
 
         <https://akizukidenshi.com/catalog/g/gP-13313/>
 
+## Diagrams
+
 基板上には部品番号を示す記号が一切ありません。
 以下の画像を取付位置の参考にしてください。
 
-* 全体図
-    ![全体図](yuiopPM001.png)
-* 上側拡大図
-    ![上側拡大図](yuiopPM002.png)
-* 下側拡大図
-    ![下側拡大図](yuiopPM003.png)
+### 全体図
+
+![全体図](yuiopPM001.png)
+
+### 上側拡大図
+
+![上側拡大図](yuiopPM002.png)
+
+### 下側拡大図
+
+![下側拡大図](yuiopPM003.png)
