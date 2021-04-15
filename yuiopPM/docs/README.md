@@ -1,6 +1,6 @@
 # YUIOP/PM (Pro Micro)
 
-YUIOP/PMはPro Micro互換ボードの互換ボードです。
+YUIOP/PMはPro Micro互換ボードのミニマルな互換ボードです。
 
 ## Build Guide
 
