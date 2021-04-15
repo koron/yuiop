@@ -88,3 +88,7 @@ YUIOP/PMはPro Micro互換ボードのミニマルな互換ボードです。
 ### 下側拡大図
 
 ![下側拡大図](yuiopPM003.png)
+
+## 資料: 組み立て作業動画
+
+[![自設計Pro Micro互換機の組み立て作業](http://img.youtube.com/vi/VMKtBdUmPo4/0.jpg)](http://www.youtube.com/watch?v=VMKtBdUmPo4 "自設計Pro Micro互換機の組み立て作業")
