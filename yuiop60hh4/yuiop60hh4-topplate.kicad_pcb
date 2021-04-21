@@ -11,9 +11,9 @@
 
   (page A3)
   (title_block
-    (title YUIOP60HH3)
-    (date 2021-04-21)
-    (rev 2)
+    (title "YUIOP60HH/Top plate")
+    (date 2021-04-22)
+    (rev 4)
     (company KaoriYa)
   )
 
@@ -66,7 +66,7 @@
     (pad_drill 8.8)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 70 100)
-    (grid_origin 331.677 185.441)
+    (grid_origin 70 100)
     (visible_elements 7FF7FFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
@@ -1720,7 +1720,7 @@
     (fp_arc (start 6.7 -6.7) (end 7 -6.7) (angle -90) (layer Edge.Cuts) (width 0.12))
   )
 
-  (module yuiop:TopPlate_Switch_1u (layer F.Cu) (tedit 60747F4D) (tstamp 6072984E)
+  (module yuiop:TopPlate_Switch_1u (layer F.Cu) (tedit 60747F4D) (tstamp 60806B3C)
     (at 107.725 185.40984)
     (path /6070B021/607DF789)
     (fp_text reference KSW56 (at 0 -2 180) (layer F.Fab) hide
@@ -2325,16 +2325,16 @@
     (pad "" np_thru_hole circle (at 0 0) (size 4.8 4.8) (drill 4.8) (layers *.Cu *.Mask))
   )
 
-  (gr_text "revision 2" (at 92.65 187.884) (layer F.SilkS) (tstamp 6074A24C)
+  (gr_text "revision 4" (at 92.5 188) (layer F.SilkS) (tstamp 6074A24C)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text JLCJLCJLCJLC (at 77.625 191.68484) (layer B.SilkS) (tstamp 607293C3)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "designed by KoRoN/KaoriYa" (at 85.748 189.916) (layer F.SilkS) (tstamp 6074A24F)
+  (gr_text "designed by KoRoN/KaoriYa" (at 85.6 190) (layer F.SilkS) (tstamp 6074A24F)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text YUIOP60HH3 (at 84.85 184.95) (layer F.SilkS) (tstamp 6074A249)
+  (gr_text YUIOP60HH (at 86 185) (layer F.SilkS) (tstamp 60806CD9)
     (effects (font (size 3.5 2.5) (thickness 0.4)))
   )
   (gr_line (start 70 158.95) (end 70 192.61) (layer Edge.Cuts) (width 0.05) (tstamp 60727F89))

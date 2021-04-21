@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title "YUIOP60HH3/LED Array"
-Date "2021-04-10"
-Rev "1"
+Title "YUIOP60HH/LED Array"
+Date "2021-04-22"
+Rev "4"
 Comp "KaoriYa"
 Comment1 ""
 Comment2 ""

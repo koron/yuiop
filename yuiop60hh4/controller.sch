@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title "YUIOP60HH3/Controller"
+Title "YUIOP60HH/Controller"
 Date "2021-04-22"
-Rev "2"
+Rev "4"
 Comp "KaoriYa"
 Comment1 ""
 Comment2 ""
