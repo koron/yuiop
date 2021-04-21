@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title "YUIOP60HH3/Controller"
-Date "2021-04-10"
-Rev "1"
+Date "2021-04-22"
+Rev "2"
 Comp "KaoriYa"
 Comment1 ""
 Comment2 ""
@@ -14,77 +14,66 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_B_Micro J1
-U 1 1 603E8BC3
-P 3300 2700
-F 0 "J1" H 3357 3167 50  0000 C CNN
-F 1 "USB_B_Micro" H 3357 3076 50  0000 C CNN
-F 2 "KeyboardController:USB-MicroB_ZX62M-B-5P" H 3450 2650 50  0001 C CNN
-F 3 "~" H 3450 2650 50  0001 C CNN
-	1    3300 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Oscillator:SG-8002CE X1
 U 1 1 603F204B
-P 3300 5600
-F 0 "X1" H 3644 5646 50  0000 L CNN
-F 1 "XTAL" H 3644 5555 50  0000 L CNN
-F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm" H 4000 5250 50  0001 C CNN
-F 3 "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC" H 3200 5600 50  0001 C CNN
-	1    3300 5600
+P 3650 5650
+F 0 "X1" H 3994 5696 50  0000 L CNN
+F 1 "XTAL" H 3994 5605 50  0000 L CNN
+F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm" H 4350 5300 50  0001 C CNN
+F 3 "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC" H 3550 5650 50  0001 C CNN
+	1    3650 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C1
 U 1 1 603F4F30
-P 3000 6100
-F 0 "C1" H 3092 6146 50  0000 L CNN
-F 1 "22p" H 3092 6055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3000 6100 50  0001 C CNN
-F 3 "https://akizukidenshi.com/catalog/g/gP-13313/" H 3000 6100 50  0001 C CNN
-	1    3000 6100
+P 3350 6150
+F 0 "C1" H 3442 6196 50  0000 L CNN
+F 1 "22p" H 3442 6105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3350 6150 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13313/" H 3350 6150 50  0001 C CNN
+	1    3350 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 5600 3000 6000
+	3350 5650 3350 6050
 Wire Wire Line
-	3300 5900 3300 6200
+	3650 5950 3650 6250
 Wire Wire Line
-	3300 6200 3000 6200
+	3650 6250 3350 6250
 $Comp
 L Device:C_Small C2
 U 1 1 603F5487
-P 3600 6100
-F 0 "C2" H 3692 6146 50  0000 L CNN
-F 1 "22p" H 3692 6055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3600 6100 50  0001 C CNN
-F 3 "https://akizukidenshi.com/catalog/g/gP-13313/" H 3600 6100 50  0001 C CNN
-	1    3600 6100
+P 3950 6150
+F 0 "C2" H 4042 6196 50  0000 L CNN
+F 1 "22p" H 4042 6105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3950 6150 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13313/" H 3950 6150 50  0001 C CNN
+	1    3950 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 6200 3300 6200
-Connection ~ 3300 6200
+	3950 6250 3650 6250
+Connection ~ 3650 6250
 Wire Wire Line
-	3600 5600 3600 6000
+	3950 5650 3950 6050
 Wire Wire Line
-	3300 5300 2850 5300
+	3650 5350 3200 5350
 Wire Wire Line
-	2850 5300 2850 6200
+	3200 5350 3200 6250
 Wire Wire Line
-	2850 6200 3000 6200
-Connection ~ 3000 6200
-Text Label 3000 5150 0    50   ~ 0
+	3200 6250 3350 6250
+Connection ~ 3350 6250
+Text Label 3350 5200 0    50   ~ 0
 XTAL2
-Text Label 3600 5150 0    50   ~ 0
+Text Label 3950 5200 0    50   ~ 0
 XTAL1
 Wire Wire Line
-	3000 5150 3000 5600
-Connection ~ 3000 5600
+	3350 5200 3350 5650
+Connection ~ 3350 5650
 Wire Wire Line
-	3600 5600 3600 5150
-Connection ~ 3600 5600
+	3950 5650 3950 5200
+Connection ~ 3950 5650
 Text Label 7500 5250 1    50   ~ 0
 XTAL1
 Text Label 7400 5250 1    50   ~ 0
@@ -116,15 +105,15 @@ RESET
 $Comp
 L Device:R R1
 U 1 1 6042E16A
-P 3300 4650
-F 0 "R1" V 3200 4550 50  0000 L CNN
-F 1 "10k" V 3300 4575 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3230 4650 50  0001 C CNN
-F 3 "~" H 3300 4650 50  0001 C CNN
-	1    3300 4650
+P 3450 4350
+F 0 "R1" V 3350 4250 50  0000 L CNN
+F 1 "10k" V 3450 4275 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3380 4350 50  0001 C CNN
+F 3 "~" H 3450 4350 50  0001 C CNN
+	1    3450 4350
 	1    0    0    -1  
 $EndComp
-Text Label 3600 4800 2    50   ~ 0
+Text Label 3750 4500 2    50   ~ 0
 RESET
 $Comp
 L Device:R R2
@@ -140,40 +129,39 @@ $EndComp
 $Comp
 L Device:R R3
 U 1 1 604519EA
-P 3950 2700
-F 0 "R3" V 3850 2600 50  0000 L CNN
-F 1 "22" V 3950 2625 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3880 2700 50  0001 C CNN
-F 3 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57FD" H 3950 2700 50  0001 C CNN
-	1    3950 2700
+P 3600 2800
+F 0 "R3" V 3500 2700 50  0000 L CNN
+F 1 "22" V 3600 2725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3530 2800 50  0001 C CNN
+F 3 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57FD" H 3600 2800 50  0001 C CNN
+	1    3600 2800
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 6045328E
-P 3950 2900
-F 0 "R4" V 3850 2800 50  0000 L CNN
-F 1 "22" V 3950 2825 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3880 2900 50  0001 C CNN
-F 3 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57FD" H 3950 2900 50  0001 C CNN
-	1    3950 2900
+P 3600 3000
+F 0 "R4" V 3500 2900 50  0000 L CNN
+F 1 "22" V 3600 2925 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3530 3000 50  0001 C CNN
+F 3 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57FD" H 3600 3000 50  0001 C CNN
+	1    3600 3000
 	0    1    1    0   
 $EndComp
-NoConn ~ 3600 2900
 Wire Wire Line
-	3600 2800 3800 2800
+	3250 2900 3450 2900
 Wire Wire Line
-	3800 2800 3800 2900
+	3450 2900 3450 3000
 Wire Wire Line
-	3600 2700 3800 2700
-Text Label 4325 2700 2    50   ~ 0
+	3250 2800 3450 2800
+Text Label 3975 2800 2    50   ~ 0
 D+
-Text Label 4325 2900 2    50   ~ 0
+Text Label 3975 3000 2    50   ~ 0
 D-
 Wire Wire Line
-	4325 2700 4100 2700
+	3975 2800 3750 2800
 Wire Wire Line
-	4100 2900 4325 2900
+	3750 3000 3975 3000
 Text Label 6300 3850 0    50   ~ 0
 D+
 Text Label 6300 3750 0    50   ~ 0
@@ -181,33 +169,27 @@ D-
 $Comp
 L Device:Fuse F1
 U 1 1 6045B5EA
-P 3850 2500
-F 0 "F1" V 3653 2500 50  0000 C CNN
-F 1 "Fuse" V 3744 2500 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3780 2500 50  0001 C CNN
-F 3 "https://akizukidenshi.com/catalog/g/gP-15300/" H 3850 2500 50  0001 C CNN
-	1    3850 2500
+P 3500 2500
+F 0 "F1" V 3303 2500 50  0000 C CNN
+F 1 "Fuse" V 3394 2500 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3430 2500 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-15300/" H 3500 2500 50  0001 C CNN
+	1    3500 2500
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_Schottky D0
 U 1 1 6045DC61
-P 4350 2500
-F 0 "D0" H 4350 2283 50  0000 C CNN
-F 1 "D_Schottky" H 4350 2374 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 4350 2500 50  0001 C CNN
-F 3 "https://akizukidenshi.com/catalog/g/gI-01398/" H 4350 2500 50  0001 C CNN
-	1    4350 2500
+P 4000 2500
+F 0 "D0" H 4000 2283 50  0000 C CNN
+F 1 "D_Schottky" H 4000 2374 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4000 2500 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-01398/" H 4000 2500 50  0001 C CNN
+	1    4000 2500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3600 2500 3700 2500
-Wire Wire Line
-	3300 3100 3300 3150
-Wire Wire Line
-	3200 3100 3200 3150
-Wire Wire Line
-	3200 3150 3300 3150
+	3250 2500 3350 2500
 $Comp
 L Device:C_Small C8
 U 1 1 604754D9
@@ -220,24 +202,18 @@ F 3 "~" H 6100 4050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4000 2500 4100 2500
-Text Label 4100 2100 3    50   ~ 0
+	3650 2500 3750 2500
+Text Label 3750 2100 3    50   ~ 0
 V_USB
 Wire Wire Line
-	4100 2100 4100 2500
-Connection ~ 4100 2500
+	3750 2100 3750 2500
+Connection ~ 3750 2500
 Wire Wire Line
-	4100 2500 4200 2500
+	3750 2500 3850 2500
 Text Label 6300 4150 0    50   ~ 0
 V_USB
 Text HLabel 6600 4250 0    50   BiDi ~ 0
 P08_B0
-Text HLabel 6600 4350 0    50   BiDi ~ 0
-P09_B1_SCLK
-Text HLabel 6600 4450 0    50   BiDi ~ 0
-P10_B2_MOSI
-Text HLabel 6600 4550 0    50   BiDi ~ 0
-P11_B3_MISO
 Text HLabel 8400 4050 2    50   BiDi ~ 0
 P28_B4
 Text HLabel 8400 3950 2    50   BiDi ~ 0
@@ -280,23 +256,18 @@ Text HLabel 7700 3150 1    50   BiDi ~ 0
 P37_F6
 Text HLabel 7800 3150 1    50   BiDi ~ 0
 P36_F7
-Text Label 4800 2500 2    50   ~ 0
+Text Label 4450 2500 2    50   ~ 0
 VCC
 Wire Wire Line
-	4500 2500 4800 2500
-Text Label 3300 6450 1    50   ~ 0
+	4150 2500 4450 2500
+Text Label 3650 6500 1    50   ~ 0
 GND
 Wire Wire Line
-	3300 6200 3300 6450
-Text Label 3300 3400 1    50   ~ 0
-GND
-Wire Wire Line
-	3300 3150 3300 3400
+	3650 6250 3650 6500
 Text Label 9300 3550 2    50   ~ 0
 GND
 Text Label 5700 4050 0    50   ~ 0
 GND
-Connection ~ 3300 3150
 Text HLabel 3250 1750 0    50   BiDi ~ 0
 VCC
 Text HLabel 3250 1950 0    50   BiDi ~ 0
@@ -307,30 +278,7 @@ Text Label 5600 3550 0    50   ~ 0
 VCC
 Text Label 3550 1750 2    50   ~ 0
 VCC
-Text Label 3300 4300 3    50   ~ 0
-VCC
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J2
-U 1 1 6056F166
-P 3250 3950
-F 0 "J2" H 3300 4267 50  0000 C CNN
-F 1 "ISP" H 3300 4176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3250 3950 50  0001 C CNN
-F 3 "~" H 3250 3950 50  0001 C CNN
-	1    3250 3950
-	1    0    0    -1  
-$EndComp
-Text HLabel 3050 3950 0    50   BiDi ~ 0
-P09_B1_SCLK
-Text HLabel 3050 3850 0    50   BiDi ~ 0
-P11_B3_MISO
-Text Label 2850 4050 0    50   ~ 0
-RESET
-Text HLabel 3550 3950 2    50   BiDi ~ 0
-P10_B2_MOSI
-Text Label 3750 4050 2    50   ~ 0
-GND
-Text Label 3750 3850 2    50   ~ 0
+Text Label 3450 4000 3    50   ~ 0
 VCC
 $Comp
 L yuiop:ATmega32U4-AU U1
@@ -375,15 +323,15 @@ Wire Wire Line
 	9000 3550 9300 3550
 Wire Wire Line
 	8400 4550 8700 4550
-Text HLabel 3100 4800 0    50   Input ~ 0
+Text HLabel 3250 4500 0    50   Input ~ 0
 RESET
 Wire Wire Line
-	3300 4300 3300 4500
+	3450 4000 3450 4200
 Wire Wire Line
-	3100 4800 3300 4800
-Connection ~ 3300 4800
+	3250 4500 3450 4500
+Connection ~ 3450 4500
 Wire Wire Line
-	3300 4800 3600 4800
+	3450 4500 3750 4500
 Text Label 5600 3650 0    50   ~ 0
 GND
 Wire Wire Line
@@ -492,12 +440,6 @@ Wire Wire Line
 	7000 2750 7000 3150
 NoConn ~ 7200 3150
 Wire Wire Line
-	3550 3850 3750 3850
-Wire Wire Line
-	3550 4050 3750 4050
-Wire Wire Line
-	3050 4050 2850 4050
-Wire Wire Line
 	3250 1950 3550 1950
 Wire Wire Line
 	3550 1750 3250 1750
@@ -509,4 +451,73 @@ Text Label 7900 2850 3    50   ~ 0
 GND
 Wire Wire Line
 	7900 3150 7900 2850
+Text HLabel 3250 2500 0    50   Input ~ 0
+USB_VBUS
+Text HLabel 3250 2800 0    50   Input ~ 0
+USB_D+
+Text HLabel 3250 2900 0    50   Input ~ 0
+USB_D-
+Text HLabel 3250 2600 0    50   Input ~ 0
+USB_GND
+Text Label 4450 2600 2    50   ~ 0
+GND
+Wire Wire Line
+	3250 2600 4450 2600
+Text Label 5950 4350 0    50   ~ 0
+P09_B1
+Text Label 5950 4450 0    50   ~ 0
+P10_B2
+Text Label 5950 4550 0    50   ~ 0
+P11_B3
+Wire Wire Line
+	5950 4350 6600 4350
+Wire Wire Line
+	5950 4450 6600 4450
+Wire Wire Line
+	5950 4550 6600 4550
+Text Label 3900 3500 2    50   ~ 0
+P10_B2
+Text Label 3900 3750 2    50   ~ 0
+P11_B3
+Wire Wire Line
+	3900 3500 3450 3500
+Wire Wire Line
+	3900 3750 3450 3750
+Text HLabel 3250 3250 0    50   BiDi ~ 0
+P09_B1
+Text HLabel 3250 3500 0    50   BiDi ~ 0
+P10_B2
+Text HLabel 3250 3600 0    50   BiDi ~ 0
+P10_MOSI
+Text HLabel 3250 3750 0    50   BiDi ~ 0
+P11_B3
+Text HLabel 3250 3850 0    50   BiDi ~ 0
+P11_MISO
+Wire Wire Line
+	3900 3250 3450 3250
+Text Label 3900 3250 2    50   ~ 0
+P09_B1
+Connection ~ 3450 3250
+Wire Wire Line
+	3450 3250 3250 3250
+Wire Wire Line
+	3450 3250 3450 3350
+Wire Wire Line
+	3450 3350 3250 3350
+Connection ~ 3450 3500
+Wire Wire Line
+	3450 3500 3250 3500
+Wire Wire Line
+	3250 3600 3450 3600
+Wire Wire Line
+	3450 3600 3450 3500
+Connection ~ 3450 3750
+Wire Wire Line
+	3450 3750 3250 3750
+Wire Wire Line
+	3450 3750 3450 3850
+Wire Wire Line
+	3450 3850 3250 3850
+Text HLabel 3250 3350 0    50   BiDi ~ 0
+P09_SCLK
 $EndSCHEMATC
