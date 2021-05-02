@@ -13,6 +13,9 @@ YUIOP/PMはPro Micro互換ボードのミニマルな互換ボードです。
 
     ピンが細いため取付位置に注意してください。
 
+    ハンダのコテ先次第ではケースに緩衝してピンまでハンダが届かない場合があるようです。
+    HAKKOの [T18-CF1](https://www.amazon.co.jp/dp/B004OR9BKK) ではハンダ付けできた実績があります。
+
 2. `X1` セイコーエプソン 表面実装型クリスタル 16MHz FA238-16MHz 1個
 
     <https://akizukidenshi.com/catalog/g/gP-02457/>
