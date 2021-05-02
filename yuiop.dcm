@@ -6,4 +6,10 @@ K AVR 8bit Microcontroller MegaAVR USB
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
 $ENDCMP
 #
+$CMP WS2812C-2020
+D RGB LED with integrated controller in 2.0mm x 2.0mm
+K RGB LED NeoPixel addressable
+F https://akizukidenshi.com/download/ds/worldsemi/ws2812c-2020.pdf
+$ENDCMP
+#
 #End Doc Library
