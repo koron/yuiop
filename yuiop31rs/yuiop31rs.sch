@@ -85,54 +85,54 @@ Wire Wire Line
 Connection ~ 8150 2100
 Wire Wire Line
 	8150 2100 8250 2100
-Text Label 9950 3000 2    50   ~ 0
+Text Label 7950 2900 0    50   ~ 0
 ROW_1
-Text Label 9950 2900 2    50   ~ 0
+Text Label 7950 2800 0    50   ~ 0
 ROW_2
-Text Label 9950 2800 2    50   ~ 0
+Text Label 7950 2700 0    50   ~ 0
 ROW_3
-Text Label 9950 2700 2    50   ~ 0
+Text Label 7950 2600 0    50   ~ 0
 ROW_4
-Text Label 9950 2600 2    50   ~ 0
-ROW_5
 Text Label 9950 2500 2    50   ~ 0
+ROW_5
+Text Label 9950 2400 2    50   ~ 0
 ROW_6
-Text Label 7850 2500 0    50   ~ 0
+Text Label 10050 2300 2    50   ~ 0
 COL_1
-Text Label 7850 2600 0    50   ~ 0
+Text Label 10050 2600 2    50   ~ 0
 COL_2
-Text Label 7850 2700 0    50   ~ 0
+Text Label 10050 2700 2    50   ~ 0
 COL_3
-Text Label 7850 2800 0    50   ~ 0
+Text Label 10050 2800 2    50   ~ 0
 COL_4
-Text Label 7850 2900 0    50   ~ 0
+Text Label 10050 2900 2    50   ~ 0
 COL_5
-Text Label 7850 3000 0    50   ~ 0
+Text Label 10050 3000 2    50   ~ 0
 COL_6
 Wire Wire Line
-	7850 2500 8250 2500
+	10050 2300 9650 2300
 Wire Wire Line
-	8250 2600 7850 2600
+	9650 2600 10050 2600
 Wire Wire Line
-	7850 2700 8250 2700
+	10050 2700 9650 2700
 Wire Wire Line
-	8250 2800 7850 2800
+	9650 2800 10050 2800
 Wire Wire Line
-	7850 2900 8250 2900
+	10050 2900 9650 2900
 Wire Wire Line
-	8250 3000 7850 3000
+	9650 3000 10050 3000
 Wire Wire Line
-	9650 2500 9950 2500
+	9650 2400 9950 2400
 Wire Wire Line
-	9950 2600 9650 2600
+	9950 2500 9650 2500
 Wire Wire Line
-	9950 2700 9650 2700
+	7950 2600 8250 2600
 Wire Wire Line
-	9650 2800 9950 2800
+	8250 2700 7950 2700
 Wire Wire Line
-	9950 2900 9650 2900
+	7950 2800 8250 2800
 Wire Wire Line
-	9650 3000 9950 3000
+	8250 2900 7950 2900
 $Comp
 L Switch:SW_Push RESET_SW1
 U 1 1 60A6B7DD
@@ -144,31 +144,18 @@ F 3 "~" H 10450 2300 50  0001 C CNN
 	1    10450 2100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_Coded_SH-7010 ROT_SW1
-U 1 1 60A79D81
-P 9000 4750
-F 0 "ROT_SW1" H 9057 5217 50  0000 C CNN
-F 1 "SW_Coded_SH-7010" H 9057 5126 50  0000 C CNN
-F 2 "Button_Switch_THT:Nidec_Copal_SH-7010C" H 8700 4300 50  0001 L CNN
-F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 9000 4750 50  0001 C CNN
-	1    9000 4750
-	1    0    0    -1  
-$EndComp
-Text Label 9950 2400 2    50   ~ 0
+Text Label 7950 2500 0    50   ~ 0
 RS
 Wire Wire Line
-	9950 2400 9650 2400
-Text Label 10100 4650 2    50   ~ 0
-COL_1
-Text Label 10100 4850 2    50   ~ 0
-COL_3
+	7950 2500 8250 2500
 Text Label 10100 4950 2    50   ~ 0
-COL_4
-Text Label 9700 4550 2    50   ~ 0
+ROW_4
+Text Label 10100 4800 2    50   ~ 0
+ROW_2
+Text Label 10100 5100 2    50   ~ 0
+ROW_1
+Text Label 9700 4500 2    50   ~ 0
 RS
-Wire Wire Line
-	9700 4550 9400 4550
 $Comp
 L power:GND #PWR0105
 U 1 1 60A7E36A
@@ -213,10 +200,10 @@ F 3 "" H 10350 2850 50  0001 C CNN
 	1    10350 2850
 	1    0    0    -1  
 $EndComp
-Text Label 7850 1900 0    50   ~ 0
+Text Label 7850 3000 0    50   ~ 0
 LED_DATA
 Wire Wire Line
-	7850 1900 8250 1900
+	7850 3000 8250 3000
 $Comp
 L kbd:SW_PUSH SW5
 U 1 1 60A8DCE8
@@ -1097,10 +1084,6 @@ Text Label 6750 2900 0    50   ~ 0
 ROW_5
 Text Label 6750 3400 0    50   ~ 0
 ROW_6
-NoConn ~ 8250 2000
-NoConn ~ 8250 2300
-NoConn ~ 8250 2400
-NoConn ~ 9650 2300
 $Comp
 L yuiop:WS2812C-2020 LED1
 U 1 1 60ADEC11
@@ -1609,58 +1592,99 @@ Connection ~ 1950 5200
 Wire Wire Line
 	1950 5200 2550 5200
 NoConn ~ 9650 1900
-$Comp
-L Device:D D32
-U 1 1 60ABBEFA
-P 9550 4650
-F 0 "D32" H 9650 4700 50  0000 L CNN
-F 1 "D" H 9595 4730 50  0001 L CNN
-F 2 "yuiop:D_SOD-123" H 9550 4650 50  0001 C CNN
-F 3 "~" H 9550 4650 50  0001 C CNN
-	1    9550 4650
-	1    0    0    -1  
-$EndComp
-Text Label 10100 4750 2    50   ~ 0
-COL_2
+Text Label 10100 4650 2    50   ~ 0
+ROW_3
 $Comp
 L Device:D D33
 U 1 1 60AFA3A5
-P 9550 4750
-F 0 "D33" H 9650 4800 50  0000 L CNN
-F 1 "D" H 9595 4830 50  0001 L CNN
-F 2 "yuiop:D_SOD-123" H 9550 4750 50  0001 C CNN
-F 3 "~" H 9550 4750 50  0001 C CNN
-	1    9550 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D34
-U 1 1 60B00B41
-P 9550 4850
-F 0 "D34" H 9650 4900 50  0000 L CNN
-F 1 "D" H 9595 4930 50  0001 L CNN
-F 2 "yuiop:D_SOD-123" H 9550 4850 50  0001 C CNN
-F 3 "~" H 9550 4850 50  0001 C CNN
-	1    9550 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D35
-U 1 1 60B07364
 P 9550 4950
-F 0 "D35" H 9650 5000 50  0000 L CNN
+F 0 "D33" H 9300 5000 50  0000 L CNN
 F 1 "D" H 9595 5030 50  0001 L CNN
 F 2 "yuiop:D_SOD-123" H 9550 4950 50  0001 C CNN
 F 3 "~" H 9550 4950 50  0001 C CNN
 	1    9550 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 60B00B41
+P 9550 5100
+F 0 "D34" H 9300 5150 50  0000 L CNN
+F 1 "D" H 9595 5180 50  0001 L CNN
+F 2 "yuiop:D_SOD-123" H 9550 5100 50  0001 C CNN
+F 3 "~" H 9550 5100 50  0001 C CNN
+	1    9550 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 60B07364
+P 9550 4800
+F 0 "D35" H 9300 4850 50  0000 L CNN
+F 1 "D" H 9595 4880 50  0001 L CNN
+F 2 "yuiop:D_SOD-123" H 9550 4800 50  0001 C CNN
+F 3 "~" H 9550 4800 50  0001 C CNN
+	1    9550 4800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 4950 10100 4950
+Wire Wire Line
+	10100 5100 9700 5100
+Wire Wire Line
+	9700 4800 10100 4800
+Wire Wire Line
+	10100 4650 9700 4650
+NoConn ~ 8250 1900
+NoConn ~ 8250 2000
+NoConn ~ 8250 2300
+NoConn ~ 8250 2400
+$Comp
+L Device:D D32
+U 1 1 60ABBEFA
+P 9550 4650
+F 0 "D32" H 9300 4700 50  0000 L CNN
+F 1 "D" H 9595 4730 50  0001 L CNN
+F 2 "yuiop:D_SOD-123" H 9550 4650 50  0001 C CNN
+F 3 "~" H 9550 4650 50  0001 C CNN
+	1    9550 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Coded_SH-7010 ROT_SW1
+U 1 1 60A79D81
+P 8700 4800
+F 0 "ROT_SW1" H 8757 5267 50  0000 C CNN
+F 1 "SW_Coded_SH-7010" H 8757 5176 50  0000 C CNN
+F 2 "Button_Switch_THT:Nidec_Copal_SH-7010C" H 8400 4350 50  0001 L CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 8700 4800 50  0001 C CNN
+	1    8700 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 4650 10100 4650
+	9100 4800 9400 4800
 Wire Wire Line
-	10100 4950 9700 4950
+	9100 4700 9250 4700
 Wire Wire Line
-	9700 4850 10100 4850
+	9250 4700 9250 4650
 Wire Wire Line
-	10100 4750 9700 4750
+	9250 4650 9400 4650
+Wire Wire Line
+	9100 4900 9250 4900
+Wire Wire Line
+	9250 4900 9250 4950
+Wire Wire Line
+	9250 4950 9400 4950
+Wire Wire Line
+	9100 5000 9250 5000
+Wire Wire Line
+	9250 5000 9250 5100
+Wire Wire Line
+	9250 5100 9400 5100
+Wire Wire Line
+	9100 4600 9250 4600
+Wire Wire Line
+	9250 4600 9250 4500
+Wire Wire Line
+	9250 4500 9700 4500
 $EndSCHEMATC
