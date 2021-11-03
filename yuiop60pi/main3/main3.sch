@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "YUIOP60Pi"
-Date "2021-10-24"
-Rev "2"
+Date "2021-11-03"
+Rev "3"
 Comp "KaoriYa"
 Comment1 "PGA2040 (RP2040) based Keyboard"
 Comment2 ""
