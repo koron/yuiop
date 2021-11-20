@@ -3,8 +3,8 @@
 YUIOP60Pi revision 3 is a DIY keyboard which have layout which partially
 compatible with [HHKB][hhkb].
 
-YUIOP60Pi revision 3は [HHKB][hhkb] と一部互換性のあるレイアウトを採用した自作
-キーボードです。
+YUIOP60Pi revision 3は [HHKB英語版][hhkb] と一部互換性のあるレイアウトを採用し
+た自作キーボードです。
 
 YUIOP60Pi uses [Pimoroni's PGA2040][pga2040] as controller.
 
