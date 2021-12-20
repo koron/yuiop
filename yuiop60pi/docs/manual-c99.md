@@ -67,8 +67,8 @@ YUIOP60PiはコントローラにPGA2040(RP2040)を用いた準HHKB互換レイ�
 * 部品調達等資料: <https://github.com/koron/yuiop/blob/master/yuiop60pi/main3/README.md>
 * 問い合わせ先
   * 掲示板: <https://github.com/koron/yuiop60pi/discussions>
-  * メール: `koron.kaoriya@gmail.com`
   * Twitter : <https://twitter.com/kaoriya>
+  * メール: `koron.kaoriya@gmail.com`
 
 ## 免責事項
 
