@@ -4,13 +4,27 @@
 
 ### 部品
 
-* Cherry MX互換キースイッチ - 60個
-* スタビライザー - 合計3個
+* Cherry MX互換キースイッチ - 60個 ([参考1][sw1], [参考2][sw2], [参考3][sw3])
+* スタビライザー - 合計3個 ([参考1][st1], [参考2][st2])
   * 2u - 2個
   * 6.25u - 1個
-* キーキャップセット - 1セット
-* 60%キーボードケース (GH60, DZ60互換推奨)
-* USB micro B ケーブル
+* キーキャップセット - 1セット ([参考1][kc1], [参考2][kc2], [参考3][kc3])
+* 60%キーボードケース (GH60, DZ60互換推奨) ([参考1][ca1], [参考2][ca2], [参考3][ca3])
+* USB micro B ケーブル ([参考1][cb1], [参考2][cb2])
+
+[cb1]:https://shop.yushakobo.jp/collections/accessory/products/usb-cable-micro-b-0-8m
+[cb2]:https://talpkeyboard.net/items/5df82904a551d528d7360c34
+[ca1]:https://shop.yushakobo.jp/collections/case/products/60-plastic-case
+[ca2]:https://shop.yushakobo.jp/collections/case/products/1429
+[ca3]:https://talpkeyboard.net/items/615ff26eacbcb077a5d5dd19
+[kc1]:https://shop.yushakobo.jp/collections/keycaps/products/3272
+[kc2]:https://shop.yushakobo.jp/collections/keycaps/products/2775
+[kc3]:https://shop.yushakobo.jp/collections/keycaps/products/pbt-gray-dye-sub-keycaps
+[st1]:https://shop.yushakobo.jp/collections/all-keyboard-parts/products/a0500st?variant=37665699463329
+[st2]:https://talpkeyboard.net/?category_id=5f884b9b3313d216eb50558a&target=instock
+[sw1]:https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81
+[sw2]:https://talpkeyboard.net/?category_id=59cf8860ed05e668db003f5d&target=instock
+[sw3]:https://kochikeyboard.stores.jp/?category_id=5f79187d07e16366f031382a&target=instock
 
 ### 機材
 
