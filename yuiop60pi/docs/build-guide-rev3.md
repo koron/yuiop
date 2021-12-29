@@ -249,7 +249,7 @@
 
 ## ファームウェアの書き込み手順
 
-ボタン(`RSW1`)を押しながらYUIOP60PiをUSBケーブルを接続する(≒YUIOP60Piの電源を入れる)とUSBドライブとして認識されます。
+`RSW1`ボタンを押しながらYUIOP60PiをUSBケーブルを接続してYUIOP60Piの電源を入れるとUSBドライブとして認識されます。
 そのドライブにファームウェアのファイル(例: yuiop60pi.uf2)を書き込めばファームウェアの書き込みは完了です。
 書き込みが終わると自動的にドライブは取り外されYUIOP60Piがキーボードとして機能します。
 
@@ -264,7 +264,7 @@
 
 [firmware_repo]:https://github.com/koron/yuiop60pi/
 [firmware_via]:https://github.com/koron/yuiop60pi/releases/download/v0.1/yuiop60pi_v0.uf2
-[firmware_latest]:
+[firmware_latest]:https://github.com/koron/yuiop60pi/releases/latest
 
 ## ビルドのTIPS
 
@@ -336,7 +336,7 @@ Cherry MX互換スイッチは固定の際にはトッププレートが1.5mm厚
 斜め45度で面取りするように軽く数回こすります。
 これだけで格段にキースイッチが抜けにくく安定します。
 
-具体的な作業方法は作業動画の中の
+具体的な作業方法は作業動画の内の
 [トッププレートの加工](https://www.youtube.com/watch?v=MzpG4a6XjD8&t=265s)
 を参考にしてください。
 
