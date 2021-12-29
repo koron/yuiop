@@ -337,7 +337,7 @@ Cherry MX互換スイッチは固定の際にはトッププレートが1.5mm厚
 これだけで格段にキースイッチが抜けにくく安定します。
 
 具体的な作業方法は作業動画の内の
-[トッププレートの加工](https://www.youtube.com/watch?v=MzpG4a6XjD8&t=265s)
+[トッププレートの加工](https://www.youtube.com/watch?v=MzpG4a6XjD8&t=270s)
 を参考にしてください。
 
 ## ファームウェアのTIPS
