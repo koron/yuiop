@@ -11,3 +11,5 @@ fp-info-cache
 *.pyc
 
 *.zip
+
+*.kicad_prl
