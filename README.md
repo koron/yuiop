@@ -48,8 +48,8 @@ Keyboards in this project are:
     Shrink from yuiop54.
     PCB dimension is 214.00mm x 94.00mm
 
-*   yuiop60hh/ - HHKB clone trial
-*   yuiop60hh2/ - HHKB clone trial #2
+*   yuiop60hh/main - HHKB clone trial
+*   yuiop60hh/main2 - HHKB clone trial #2
 
 *   yuiop50d/ - Small footprint, dense 50 keys keyboard.
 
@@ -75,11 +75,11 @@ Keyboards in this project are:
 
 *   yuiopPM/ - Pro Micro compatible but minimal for only keyboard, PCB
 
-*   yuiop60hh3/ - HHKB layout, compatible with popular 60% cases.
+*   yuiop60hh/main3 - HHKB layout, compatible with popular 60% cases.
 
     Problems on positions of screw hole or so. Not built.
 
-*   yuiop60hh4/ - HHKB layout, compatible with popular 60% cases.
+*   yuiop60hh/main4 - HHKB layout, compatible with popular 60% cases.
 
     YUIOP60HH series revision 4.
     Implemented with MPU ATmega32U4 (not Pro Micro)
@@ -88,3 +88,7 @@ Keyboards in this project are:
 
     With 31 LEDs (WB2812C-2020). Its hole is too small to be chaged extra on
     production.
+
+*   yuiop60s/ - split keyboard prototype
+
+*   yuiop60pi/ - PGA2040 (RP2040) base HHKB layout semi-compatible keyboard.
