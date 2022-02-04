@@ -8,13 +8,13 @@ Keyboards in this project are:
 
     27 keys for one hand. single left hand.
 
-*   yuiop54/ - signle board keyboard prototype.
+*   yuiop54/main - signle board keyboard prototype.
 
     combined right and left-hand boards of yuiop27.
     PCB dimension is 285.00mm x 94.60mm (GH60 compatible form factor without
     screw holes).
 
-*   yuiop54v2/ - researching version of yuiop54.
+*   yuiop54/main2 - researching version of yuiop54.
 
     multi-sheets schematic.
     fix layout for auto routing.
