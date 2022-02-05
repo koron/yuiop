@@ -6,8 +6,8 @@
 
   (title_block
     (title "YUIOP60HH/Controller")
-    (date "2021-04-22")
-    (rev "4")
+    (date "2022-02-05")
+    (rev "5")
     (company "KaoriYa")
   )
 
@@ -860,7 +860,7 @@
     (uuid ffa442c7-cbef-461f-8613-c211201cec06)
   )
 
-  (label "VCC" (at 142.24 90.17 0)
+  (label "V_USB" (at 142.24 90.17 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0c5dddf1-38df-43d2-b49c-e7b691dab0ab)
   )

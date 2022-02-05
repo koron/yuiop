@@ -5,8 +5,10 @@ tmp/
 
 fp-info-cache
 
+# Freerouting related files
 *.dsn
 *.rules
+*.bin
 
 *.pyc
 
