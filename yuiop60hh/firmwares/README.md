@@ -32,6 +32,21 @@
     $ avrdude -c arduino -P COM6 -p atmega32u4 -U lock:r:-:h
     ```
 
+## How to flash firmware with DFU
+
+1. Erase current firmware
+
+    ```console
+    dfu-programmer atmega32u4 erase --force
+    ```
+
+2. Flash firmware
+
+    ```console
+    dfu-programmer atmega32u4 flash --force yuiop_yuiop60hh5_test.hex
+    ```
+
+
 ## References
 
 * [Fuse設定のあるべき姿の考察](https://osamuaoki.github.io/jp/2020/03/29/atmega32u4-2/#fuse%E8%A8%AD%E5%AE%9A%E3%81%AE%E3%81%82%E3%82%8B%E3%81%B9%E3%81%8D%E5%A7%BF%E3%81%AE%E8%80%83%E5%AF%9F)
