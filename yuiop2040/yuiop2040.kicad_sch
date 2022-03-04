@@ -6,8 +6,8 @@
 
   (title_block
     (title "YUIOP2040")
-    (date "2022-02-11")
-    (rev "1")
+    (date "2022-03-04")
+    (rev "2")
     (company "KaoriYa")
   )
 
@@ -3052,7 +3052,7 @@
   (symbol (lib_id "Device:R_Small") (at 49.53 157.48 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 10cecd80-09b9-4583-b37c-5971b308307c)
-    (property "Reference" "R32" (id 0) (at 46.99 160.02 90))
+    (property "Reference" "R8" (id 0) (at 46.99 160.02 90))
     (property "Value" "5.1k" (id 1) (at 53.34 160.02 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 49.53 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3118,7 +3118,7 @@
   (symbol (lib_id "Device:R_Small") (at 49.53 154.94 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 17c04d46-5545-49e7-a7ea-176e2d24b709)
-    (property "Reference" "R31" (id 0) (at 46.99 152.4 90))
+    (property "Reference" "R7" (id 0) (at 46.99 152.4 90))
     (property "Value" "5.1k" (id 1) (at 53.34 152.4 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 49.53 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3524,7 +3524,7 @@
     (property "Value" "RP2040" (id 1) (at 132.08 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "RP2040_minimal:RP2040-QFN-56" (id 2) (at 140.97 111.76 0)
+    (property "Footprint" "RP2040_minimal:RP2040-QFN-56-r2" (id 2) (at 140.97 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 140.97 111.76 0)
@@ -4056,7 +4056,7 @@
     (property "Value" "W25Q16JVSS" (id 1) (at 83.82 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" (id 2) (at 82.55 80.01 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 82.55 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" (id 3) (at 82.55 80.01 0)
@@ -4322,19 +4322,19 @@
       (reference "R6") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/17c04d46-5545-49e7-a7ea-176e2d24b709"
-      (reference "R31") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R7") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/10cecd80-09b9-4583-b37c-5971b308307c"
-      (reference "R32") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R8") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/2e584fe4-1621-4a64-ac2a-2ed01a0e9342"
       (reference "U1") (unit 1) (value "MIC5219-3.3YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/675274af-e6f4-43be-85d7-d6b1c6e80024"
-      (reference "U2") (unit 1) (value "RP2040") (footprint "RP2040_minimal:RP2040-QFN-56")
+      (reference "U2") (unit 1) (value "RP2040") (footprint "RP2040_minimal:RP2040-QFN-56-r2")
     )
     (path "/eb1c0ad7-0554-478d-b564-32d916be20bf"
-      (reference "U3") (unit 1) (value "W25Q16JVSS") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
+      (reference "U3") (unit 1) (value "W25Q16JVSS") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/d67216a7-4544-4493-ba76-2e90a2a63f74"
       (reference "Y1") (unit 1) (value "FA238V 12.000000MHz 10.0 +50.0-50.0") (footprint "Crystal:Crystal_SMD_SeikoEpson_FA238V-4Pin_3.2x2.5mm")
