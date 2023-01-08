@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Seeeduino XIAO KICAD")(type "KiCad")(uri "${KIPRJMOD}/../lib/Seeeduino XIAO KICAD")(options "")(descr ""))
+  (lib (name "yuiop")(type "KiCad")(uri "${KIPRJMOD}/../yuiop.pretty")(options "")(descr ""))
+)
