@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "Seeeduino XIAO")(type "KiCad")(uri "${KIPRJMOD}/../lib/Seeeduino XIAO KICAD/Seeeduino XIAO.kicad_sym")(options "")(descr ""))
-)
