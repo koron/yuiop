@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "Seeeduino XIAO KICAD")(type "KiCad")(uri "${KIPRJMOD}/../../lib/Seeeduino XIAO KICAD")(options "")(descr ""))
+  (lib (name "yuiop")(type "KiCad")(uri "${KIPRJMOD}/../../yuiop.pretty")(options "")(descr ""))
+  (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/../../kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
+  (lib (name "Keyswitch_Cherry_MX")(type "KiCad")(uri "${KICAD6_3RD_PARTY}/footprints/com_github_perigoso_keyswitch-kicad-library/Switch_Keyboard_Cherry_MX.pretty")(options "")(descr ""))
+  (lib (name "Keyswitch_Hotswap_Kailh")(type "KiCad")(uri "${KICAD6_3RD_PARTY}/footprints/com_github_perigoso_keyswitch-kicad-library/Switch_Keyboard_Hotswap_Kailh.pretty")(options "")(descr ""))
+)
