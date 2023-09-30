@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name KeyboardController)(type KiCad)(uri ${KIPRJMOD}/../KeyboardController)(options "")(descr ""))
+)
