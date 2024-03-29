@@ -2478,7 +2478,7 @@
     (property "Value" "RP2040" (id 1) (at 95.25 182.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "RP2040_minimal:RP2040-QFN-56-r2" (id 2) (at 104.14 130.81 0)
+    (property "Footprint" "RP2040_minimal:RP2040-QFN-56" (id 2) (at 104.14 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 104.14 130.81 0)
@@ -3659,7 +3659,7 @@
       (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/0c64a8a2-476d-4ce5-9a4f-cce66f41d837"
-      (reference "U1") (unit 1) (value "RP2040") (footprint "RP2040_minimal:RP2040-QFN-56-r2")
+      (reference "U1") (unit 1) (value "RP2040") (footprint "RP2040_minimal:RP2040-QFN-56")
     )
     (path "/565082b3-06ce-46fa-857c-fecdf53c89f1"
       (reference "U2") (unit 1) (value "W25Q16JVSS") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
