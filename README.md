@@ -2,6 +2,8 @@
 
 YUIOP keyboards are experimental original keyboards designed by KoRoN.
 
+## Sub Projects
+
 Keyboards in this project are:
 
 *   yuiop27/ - separate keyboard prototype.
@@ -49,7 +51,12 @@ Keyboards in this project are:
     PCB dimension is 214.00mm x 94.00mm
 
 *   yuiop60hh/main - HHKB clone trial
-*   yuiop60hh/main2 - HHKB clone trial #2
+
+    * main2 - HHKB clone trial #2
+    * main3
+    * main4
+    * main5 - Practicing version
+    * main5b - USB Type-C receptacle version of main5
 
 *   yuiop50d/ - Small footprint, dense 50 keys keyboard.
 
@@ -75,6 +82,8 @@ Keyboards in this project are:
 
 *   yuiopPM/ - Pro Micro compatible but minimal for only keyboard, PCB
 
+*   yuiopPM2/ - Revised version of yuiopPM. It was shelved unfinished.
+
 *   yuiop60hh/main3 - HHKB layout, compatible with popular 60% cases.
 
     Problems on positions of screw hole or so. Not built.
@@ -92,3 +101,13 @@ Keyboards in this project are:
 *   yuiop60s/ - split keyboard prototype
 
 *   yuiop60pi/ - PGA2040 (RP2040) base HHKB layout semi-compatible keyboard.
+
+*   yuiop2040/ - Original RP2040 control board.
+
+*   yuiop2040C/ "Compact" model of yuiop2040. Abandoned.
+
+*   yuiop32dm/ - Experimental keyboard for Duplic Matrix
+
+*   yuiopPD/ - Pointing device using the trackball module of Keyball series.
+
+*   rp2040-controller/ - Reusable circuit diagram for controller using RP2040
