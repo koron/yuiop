@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SwitchScience")(type "KiCad")(uri "${KIPRJMOD}/../lib/symbols/SwitchScience.kicad_sym")(options "")(descr ""))
+  (lib (name "yuiop")(type "KiCad")(uri "${KIPRJMOD}/../lib/symbols/yuiop.kicad_sym")(options "")(descr ""))
+)
