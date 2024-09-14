@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "yuiop")(type "KiCad")(uri "${KIPRJMOD}/../yuiop.pretty")(options "")(descr ""))
   (lib (name "SwitchScience")(type "KiCad")(uri "${KIPRJMOD}/../lib/footprints/SwitchScience.pretty")(options "")(descr ""))
+  (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/../kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
 )

@@ -18243,7 +18243,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AudioJack4"
+		(property "Value" "MJ-4PP-9"
 			(at 199.39 150.4949 0)
 			(effects
 				(font
@@ -18252,7 +18252,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal"
+		(property "Footprint" "yuiop:MJ-4PP-9"
 			(at 190.5 147.32 0)
 			(effects
 				(font
@@ -18261,7 +18261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://akizukidenshi.com/catalog/g/g106070/"
 			(at 190.5 147.32 0)
 			(effects
 				(font
