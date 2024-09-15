@@ -919,23 +919,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "J2"
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "SSD1306 OLED"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1046,25 +1046,7 @@
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
+					(number "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1082,7 +1064,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1100,7 +1082,25 @@
 							)
 						)
 					)
-					(number "4"
+					(number "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13875,7 +13875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+		(property "Footprint" "yuiop:OLED_128x32"
 			(at 180.34 127 0)
 			(effects
 				(font
@@ -13902,16 +13902,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "GND"
 			(uuid "e7aa30cf-5b86-4d94-a212-d8f7b5b8cfae")
 		)
-		(pin "4"
+		(pin "SCL"
 			(uuid "6620c7ae-fa25-4dfb-9f6f-da6cf2be006a")
 		)
-		(pin "3"
+		(pin "SDA"
 			(uuid "5ba9191c-6588-4ae6-b028-8265dd99d1f1")
 		)
-		(pin "2"
+		(pin "VCC"
 			(uuid "bc69a83f-f207-4d84-814f-029cf6c5d498")
 		)
 		(instances
