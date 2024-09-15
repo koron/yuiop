@@ -662,7 +662,7 @@
 		(roundrect_rratio 0.1)
 		(uuid "8726764d-e241-40ae-bc19-f1316ce245a6")
 	)
-	(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

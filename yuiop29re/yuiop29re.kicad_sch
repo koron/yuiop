@@ -7712,7 +7712,7 @@
 		)
 		(uuid "bef402db-2ee9-443f-a238-9a7461ebf7b9")
 	)
-	(label "USB_DM"
+	(label "USB_DP"
 		(at 148.59 109.22 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7767,7 +7767,7 @@
 		)
 		(uuid "e1a5cfb4-29ed-4ec9-b813-b967ca5aefc8")
 	)
-	(label "USB_DP"
+	(label "USB_DM"
 		(at 148.59 111.76 180)
 		(fields_autoplaced yes)
 		(effects
