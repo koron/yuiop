@@ -18252,7 +18252,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "yuiop:MJ-4PP-9"
+		(property "Footprint" "yuiop:MJ-4PP-9_2021"
 			(at 190.5 147.32 0)
 			(effects
 				(font
